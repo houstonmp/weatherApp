@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>Meteor</title>
+</head>
+<body>
+<nav>
+    <div class="logo">
+        <h1>meteor</h1>
+        <object data="assets/img/meteor.svg"></object>
+    </div>
+</nav>
+<main>
+    <label for="locale">Filter Location:</label>
+    <select name="locale" id="placeName">
+        <option value="London">London</option>
+        <option value="Paris">Paris</option>
+        <option value="New York">New York</option>
+        <option value="Tokyo">Tokyo</option>
+        <option value="Dubai">Dubai</option>
+        <option value="Barcelona">Barcelona</option>
+        <option value="Rome">Rome</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Singapore">Singapore</option>
+        <option value="Amsterdam">Amsterdam</option>
+        <option value="Prague">Prague</option>
+        <option value="Chicago">Chicago</option>
+        <option value="San Francisco">San Francisco</option>
+        <option value="Berlin">Berlin</option>
+        <option value="Hong Kong">Hong Kong</option>
+        <option value="Washington">Washington</option>
+        <option value="Beijing">Beijing</option>
+        <option value="Dublin">Dublin</option>
+        <option value="Istanbul">Istanbul</option>
+        <option value="Las Vegas">Las Vegas</option>
+        <option value="Milan">Milan</option>
+        <option value="Budapest">Budapest</option>
+        <option value="Toronto">Toronto</option>
+        <option value="Sydney">Sydney</option>
+        <option value="Seoul">Seoul</option>
+        <option value="Doha">Doha</option>
+        <option value="Abu Dhabi">Abu Dhabi</option>
+        <option value="Osaka">Osaka</option>
+        <option value="Bangkok">Bangkok</option>
+        <option value="Vienna">Vienna</option>
+        <option value="San Diego">San Diego</option>
+        <option value="Sao Paulo">Sao Paulo</option>
+        <option value="Melbourne">Melbourne</option>
+        <option value="Zurich">Zurich</option>
+        <option value="Boston">Boston</option>
+        <option value="Lisbon">Lisbon</option>
+        <option value="Warsaw">Warsaw</option>
+        <option value="Seattle">Seattle</option>
+        <option value="Orlando">Orlando</option>
+        <option value="Munich">Munich</option>
+        <option value="Houston">Houston</option>
+        <option value="Austin">Austin</option>
+        <option value="Buenos Aires">Buenos Aires</option>
+        <option value="Naples">Naples</option>
+        <option value="Copenhagen">Copenhagen</option>
+        <option value="Dallas">Dallas</option>
+        <option value="Helsinki">Helsinki</option>
+        <option value="Frankfurt">Frankfurt</option>
+        <option value="Atlanta">Atlanta</option>
+    </select>
+    <h2>Current Weather in <span id="cityName"></span></h2>
+    <article id="currentWeather" class="current-weather">
+        <div  class="temp">
+            <h1></h1>
+        </div>
+        <div class="weather-data">
+        </div>
+
+    </article>
+    <h2>3 Day Forecast</h2>
+    <section class="forecast-bar">
+    <article class="forecast">
+        <div class="date">
+            
+        </div>
+
+        <div class="temp">
+            <h1></h1>
+        </div>
+        <div class="weather">
+
+        </div>
+    </article>
+    <article class="forecast">
+        <div class="date">
+
+        </div>
+
+        <div class="temp">
+            <h1></h1>
+        </div>
+        <div class="weather">
+
+        </div>
+    </article>
+    <article class="forecast">
+        <div class="date">
+
+        </div>
+
+        <div class="temp">
+            <h1></h1>
+        </div>
+        <div class="weather">
+
+        </div>
+    </article>
+</section>
+
+
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
