@@ -16,7 +16,13 @@ Features:
 
 ## Demo - check it out [*here*](https://frabjous-biscuit-20fc2a.netlify.app/)
 
-<Insert gif and link to demo>
+
+*Application on Large Devices*  
+<img src="/assets/meteor-github.gif" alt="Meteor Weather app on Large Devices" width="60%" />
+
+*Application on Small Devices*  
+<img src="/assets/meteor-github-small.gif" alt="Meteor Weather app on Small Devices" width="40%" />
+
 
 
 ## Roadmap - (Goals and ToDos)
@@ -32,15 +38,6 @@ A friend of mine told me she was working on a weather app so I thought that I wo
 
 ### Color Palette and Shapes
 The color is blue because of its relation to water / rain. However, some of the other elements will have the option of changing color depending on the temperature (Future update).
-
-### 
-
-<Insert Figma Image>
-
-*Original design within Figma*
-
-
-
 
 ## Acknowledgements
 
